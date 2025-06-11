@@ -1,5 +1,5 @@
 
-# Comparativa de métodos para acceso desde Alibaba a S3
+# Comparativa de métodos para acceso desde External Cloud to AWS --> Especificamente S3 
 
 ## Métodos evaluados
 
@@ -13,7 +13,7 @@
 
 ## Recomendación
 
-Para el caso de uso **CI/CD desde Alibaba para subir bundles a S3**, lo más seguro, escalable y administrable es:
+Para el caso de uso **CI/CD desde Tencent, GCP, Alibaba, Huawei u otros, podran subir bundles a S3 o usar otros recurso**, lo más seguro, escalable y administrable es:
 
 - **Identity Federation (OIDC + Entra External ID)**
 - O bien **IAM Roles Anywhere** si se gestiona bien la CA y certificados

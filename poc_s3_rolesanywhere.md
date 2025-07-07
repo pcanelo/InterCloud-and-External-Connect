@@ -1,4 +1,5 @@
 # PoC completa: Acceso seguro a Amazon S3 con IAM Roles Anywhere
+![image](https://github.com/user-attachments/assets/7d6a115c-9e79-4456-bb35-112eb0af9ae8)
 
 ## Prerrequisitos
 

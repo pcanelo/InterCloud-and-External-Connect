@@ -62,7 +62,7 @@ Antes de comenzar, asegúrese de tener lo siguiente:
 openssl genrsa -out privateRootCA.key 2048
 
 openssl req -x509 -new -nodes -key privateRootCA.key -sha256 -days 365 -out privateRootCA.pem \
--subj "/C=CL/O=Learning DevSecOps" \
+-subj "/C=CL/O=pknelo architect" \
 -addext "basicConstraints=critical,CA:TRUE" \
 -addext "keyUsage=critical,keyCertSign,cRLSign"
 ```
@@ -88,7 +88,7 @@ default_md = sha256
 distinguished_name = dn
 [dn]
 C = CL
-O = Learning DevSecOps
+O = pknelo architect
 CN = ClientCert
 [v3_ext]
 basicConstraints = CA:FALSE
